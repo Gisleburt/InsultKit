@@ -1,0 +1,55 @@
+body {
+    width:99%;
+    height:99%;
+}
+
+.insult {
+    font-family: Impact, Impact, Charcoal, sans-serif;
+    font-style: italic;
+    font-size: 7em;
+    max-width: 70%;
+    width: 100%;
+    min-height: 30%;
+}
+
+#insult1 {
+    text-align: left;
+}
+
+#insult2 {
+    text-align: center;
+}
+
+#insult3 {
+    text-align: right;
+}
+
+#shakespeareWrapper {
+    display: inline-block;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+    text-align: right;
+    height:80%;
+}
+
+#shakespeare {
+    max-height: 100%;
+}
+
+.about {
+    position: fixed;
+    right: 0px;
+    width: 120px;
+    font-weight: bold;
+    font-size:0.7em;
+    font-family: 'courier new', monospace;
+    color: #007;
+
+}
+
+.about span {
+    color: #070;
+}
+
+a { text-decoration: none; color:inherit}

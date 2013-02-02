@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shakespeare Insult Kit</title>
+    <script src="insult.js"></script>
+    <link href="injury.css" rel="stylesheet" type="text/css" />
+    <script>
+        var shakespeare = new ShakespeareInsultKit({
+            target: 'insultContainer',
+            delay: 1000,
+            elementType: 'div'
+        });
+        window.onload = function() { shakespeare.insultMe(); };
+    </script>
+</head>
+<body>
+
+    <div class="about" title="Click Will for more. All code by me, see image for credits there. Insult source http://www.pangloss.com/seidel/shake_rule.html">
+        <a href="http://danielmason.com">Daniel <span>// Mason</span></a>
+    </div>
+
+    <div id="insultContainer"></div>
+
+    <span id="shakespeareWrapper">
+        <a href="javascript:shakespeare.insultMe()">
+            <img id="shakespeare" src="shakespeare.png" alt="Image by In Helmolt, H.F., ed. History of the World. New York: Dodd, Mead and Company, 1902. Author unknown, but the portrait has several centuries [Public domain or Public domain], via Wikimedia Commons" title="Image by In Helmolt, H.F., ed. History of the World. New York: Dodd, Mead and Company, 1902. Author unknown, but the portrait has several centuries [Public domain or Public domain], via Wikimedia Commons"/>
+        </a>
+    </span>
+
+</body>
+</html>
